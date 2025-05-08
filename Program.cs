@@ -9,6 +9,7 @@ namespace SupermarketWEB
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
             // Add services to the container.
             builder.Services.AddRazorPages();
 
@@ -26,7 +27,7 @@ namespace SupermarketWEB
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
